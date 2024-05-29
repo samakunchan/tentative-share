@@ -1,0 +1,14 @@
+{
+  "name": "tentative-share",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/samakunchan/tentative-share.git",
+  "author": "samakunchan <badgehades@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
