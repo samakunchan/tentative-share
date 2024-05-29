@@ -17,7 +17,7 @@
       const shareData = {
         title, text, url
       }
-      navigator.share(shareData)
+      navigator.share(shareData).then(() => alert('Chargement...')).catch(() => alert('ça ne marche pas')).then(() => alert('La fermeture à bien été éffectuer'))
     }
   })
 </script>
